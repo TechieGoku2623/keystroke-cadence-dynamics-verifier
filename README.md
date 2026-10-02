@@ -13,6 +13,14 @@
 | **Website** | https://github.com/TechieGoku2623/keystroke-cadence-dynamics-verifier |
 | **Topics** | `python` `asyncio` `ecommerce` `fraud-detection` `behavioral-biometrics` |
 
+## Watch the demo
+
+<p align="center">
+  <img src="docs/demo.gif" alt="Keystroke Cadence Dynamics Verifier dashboard walkthrough" width="920"/>
+</p>
+
+Play the video: [docs/watch.html](docs/watch.html)
+
 ## The problem this solves
 
 A password proves knowledge. It does not show that the same person is at the keyboard. Storing the characters to study typing creates a keylog.
