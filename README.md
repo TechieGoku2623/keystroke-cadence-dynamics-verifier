@@ -21,7 +21,17 @@ PCI-DSS alignment here means the record has no primary account number and no key
 
 ## 📊 Core Visual Walkthrough & Engine Pipeline Flow
 
-![Terminal walkthrough](docs/assets/terminal-walkthrough.gif)
+Engine run.
+
+![Engine run](docs/assets/terminal-walkthrough.gif)
+
+Benchmark harness.
+
+![Benchmark harness](docs/assets/benchmark-walkthrough.gif)
+
+Unit tests.
+
+![Unit tests](docs/assets/tests-walkthrough.gif)
 
 ```
 caller-supplied dwell_ms[], flight_ms[]   (no characters)
