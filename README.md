@@ -13,6 +13,14 @@
 | **Website** | https://github.com/TechieGoku2623/keystroke-cadence-dynamics-verifier |
 | **Topics** | `python` `asyncio` `ecommerce` `fraud-detection` `behavioral-biometrics` |
 
+## The problem this solves
+
+A password proves knowledge. It does not show that the same person is at the keyboard. Storing the characters to study typing creates a keylog.
+
+Keystroke Cadence Dynamics Verifier enrolls and checks dwell and flight times in milliseconds only. It compares the attempt to the template with dynamic time warping and a z-distance, then returns `accept`, `step_up`, or `reject`. A negative time or a gap above 2000 ms raises as a bad sample. The stored record is timings.
+
+Cardholder data and typed characters never enter this path, which is how the design stays compatible with PCI DSS by omission.
+
 ## Walkthrough
 
 ### How it works
