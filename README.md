@@ -2,6 +2,11 @@
 
 A high-throughput, low-latency asynchronous engine engineered to resolve whether a caller-supplied dwell and flight millisecond probe matches an enrolled template, using windowed dynamic time warping and a z-style distance, without reading a keyboard or storing a character.
 
+Website: https://github.com/TechieGoku2623/keystroke-cadence-dynamics-verifier
+
+Topics: `python` `asyncio` `ecommerce` `fraud-detection` `behavioral-biometrics`
+
+
 ## 🏗️ Systems Architecture & Event Topology
 
 `KeystrokeCadenceDynamicsVerifier.run` takes a sequence of frames. A frame is a mapping with `role` (`template` or `probe`), `dwell_ms`, and `flight_ms`. Both vectors are durations in milliseconds that the caller already measured for an enrolled user. The module does not read an input device, install a hook, or store a character.
@@ -15,6 +20,8 @@ The returned dict carries `decision`, `dtw_cost`, and `z_distance`. The struct r
 PCI-DSS alignment here means the record has no primary account number and no keystroke characters. It is not an assessment of this process.
 
 ## 📊 Core Visual Walkthrough & Engine Pipeline Flow
+
+![Terminal walkthrough](docs/assets/terminal-walkthrough.gif)
 
 ```
 caller-supplied dwell_ms[], flight_ms[]   (no characters)

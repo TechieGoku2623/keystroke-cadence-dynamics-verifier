@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "keystroke-cadence-dynamics-verifier"
 version = "1.0.0"
-description = "Keystroke Cadence Dynamics Verifier"
+description = "Opt-in cadence check that scores dwell and flight timings with dynamic time warping. No characters are stored."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "TechieGoku2623" }]
